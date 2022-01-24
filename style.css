@@ -1,6 +1,13 @@
-/* debug */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+html {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
 [class*="col-"] {
-    border: 2px solid orange;
-    background-color: rgb(255, 242, 122);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(122, 195, 255);
     padding: 20px 10px;
 }
