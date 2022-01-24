@@ -1,0 +1,6 @@
+/* debug */
+[class*="col-"] {
+    border: 2px solid orange;
+    background-color: rgb(255, 242, 122);
+    padding: 20px 10px;
+}
