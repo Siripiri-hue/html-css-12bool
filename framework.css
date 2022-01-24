@@ -20,6 +20,9 @@
     text-align: center;
 }
 
+.col-flex { display: flex; }
+.row-rev { flex-direction: row-reverse; }
+
 /* colonne */ 
 .col-1 {
     flex-basis: calc( (100% / 12 ));
@@ -72,7 +75,7 @@
 
 /* offsets */
 .col-offset-1 { margin-left: calc( (100% / 12 ) * 1); }
-.col-offest-2 { margin-left: calc( (100% / 12 ) * 2); }
+.col-offset-2 { margin-left: calc( (100% / 12 ) * 2); }
 .col-offset-3 { margin-left: calc( (100% / 12 ) * 3); }
 .col-offset-4 { margin-left: calc( (100% / 12 ) * 4); }
 .col-offset-5 { margin-left: calc( (100% / 12 ) * 5); }
