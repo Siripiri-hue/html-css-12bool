@@ -17,11 +17,12 @@
 
 [class*="col-"] {
     flex: 0 0 auto;
-    text-align: center;
 }
 
 .col-flex { display: flex; }
 .row-rev { flex-direction: row-reverse; }
+.just-center { justify-content: center; }
+.just-end { justify-content: flex-end; }
 
 /* colonne */ 
 .col-1 {

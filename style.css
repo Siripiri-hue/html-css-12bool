@@ -10,6 +10,7 @@ html {
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(122, 195, 255);
     padding: 20px 10px;
+    text-align: center;
 }
 
 .nested { 
@@ -18,3 +19,5 @@ html {
 }
 
 .container { padding: 15px 0; }
+
+h1 { color: tomato; }
