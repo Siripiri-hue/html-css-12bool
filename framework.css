@@ -23,6 +23,10 @@
 .row-rev { flex-direction: row-reverse; }
 .just-center { justify-content: center; }
 .just-end { justify-content: flex-end; }
+.align-center { align-items: center; }
+.align-end {align-items: flex-end; }
+.sp-around { justify-content: space-around; }
+.sp-between { justify-content: space-between; }
 
 /* colonne */ 
 .col-1 {
