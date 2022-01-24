@@ -19,7 +19,6 @@
     flex: 0 0 auto;
 }
 
-.col-flex { display: flex; }
 .row-rev { flex-direction: row-reverse; }
 .just-center { justify-content: center; }
 .just-end { justify-content: flex-end; }

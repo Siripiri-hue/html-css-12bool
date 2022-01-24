@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>12bool</title>
 </head>
+
 <body class="debug">
 
     <!-- primo blocco -->
@@ -59,14 +61,18 @@
 
         <!-- sesta riga, colonne annidate -->
         <div class="row">
-            <div class="col-6 col-flex">
-                <div class="col-2 nested">2</div>
-                <div class="col-2 nested">2</div>
-                <div class="col-8 nested">8</div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-2 nested">2</div>
+                    <div class="col-2 nested">2</div>
+                    <div class="col-8 nested">8</div>
+                </div>
             </div>
-            <div class="col-6 col-flex">
-                <div class="col-6 nested">6</div>
-                <div class="col-6 nested">6</div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6 nested">6</div>
+                    <div class="col-6 nested">6</div>
+                </div>
             </div>
         </div>
     </div>
@@ -165,14 +171,18 @@
     <div class="container">
         <h1>Nested</h1>
         <div class="row">
-            <div class="col-7 col-flex">
-                <div class="col-3 nested"></div>
-                <div class="col-6 nested"></div>
-                <div class="col-3 nested"></div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-3 nested"></div>
+                    <div class="col-6 nested"></div>
+                    <div class="col-3 nested"></div>
+                </div>
             </div>
-            <div class="col-5 col-flex ">
-                <div class="col-6 nested"></div>
-                <div class="col-6 nested"></div>
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-6 nested"></div>
+                    <div class="col-6 nested"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -203,26 +213,31 @@
             <div class="col-6">bottom</div>
         </div>
     </div>
-    
+
     <!-- sesto blocco -->
     <div class="container">
         <h1>Justify content</h1>
         <h2>Space around</h2>
         <div class="row">
-            <div class="col-12 col-flex sp-around">
-                <div class="col-3 nested"></div>
-                <div class="col-3 nested"></div>
-                <div class="col-3 nested"></div>
+            <div class="col-12">
+                <div class="row sp-around">
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                </div>
             </div>
         </div>
         <h2>Space Between</h2>
         <div class="row">
-            <div class="col-12 col-flex sp-between">
-                <div class="col-3 nested"></div>
-                <div class="col-3 nested"></div>
-                <div class="col-3 nested"></div>
+            <div class="col-12 ">
+                <div class="row sp-between">
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                    <div class="col-3 nested"></div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
