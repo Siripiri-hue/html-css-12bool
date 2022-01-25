@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.container-fluid {
+    width: 96vw;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     /* flex-wrap: wrap; */

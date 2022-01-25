@@ -1,0 +1,16 @@
+/* background  */
+.clouds { background-color: #e9ecf0; }
+.sun { background-color: rgb(255, 255, 104); }
+
+
+
+
+
+
+
+
+/* debug  */
+.debug [class*="col-"] { 
+    border: 1px solid black;
+    height: 8vh;
+}
