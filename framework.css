@@ -11,8 +11,8 @@
 }
 
 .container-fluid {
-    width: 96vw;
-    margin: 0 auto;
+    width: 50%;
+    margin: 5px auto;
 }
 
 .row {

@@ -1,16 +1,23 @@
+[class*="col-"] { 
+    height: 8vh;
+}
+
+/* cornice */
+.container-fluid {
+    border: 3px solid black;
+}
+
 /* background  */
 .clouds { background-color: #e9ecf0; }
 .sun { background-color: rgb(255, 255, 104); }
-
-
-
-
-
-
-
+.sky {background-color: rgb(118, 201, 226); }
+.snow1 {background-color: #e2e2e2; }
+.snow2 {background-color: #c2c2c2; }
+.mountain1 {background-color: #8f5a2f; }
+.mountain2 {background-color: #643f14; }
+.mountain3 {background-color: #473011; }
+.ground1 {background-color: #346305; }
+.ground2 {background-color: #478012; }
 
 /* debug  */
-.debug [class*="col-"] { 
-    border: 1px solid black;
-    height: 8vh;
-}
+/* .debug [class*="col-"] { border: 1px solid black; } */
